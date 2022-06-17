@@ -1,0 +1,49 @@
+.aboutme {
+    
+    background-color: #F6F6F6;
+    
+}
+.container {
+}
+.aboutme-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.aboutme-text-title {
+    font-family: 'Gilroy';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+margin-bottom: 20px;
+margin-top: 120px;
+}
+.aboutme-text-first {
+    width: 490px;
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+margin-bottom: 20px;
+}
+.aboutme-text-second {
+    width: 4600px;
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+margin-bottom: 20px;
+}
+.aboutme-text-third {
+    width: 410px;
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+margin-bottom: 105px;
+}

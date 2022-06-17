@@ -1,0 +1,27 @@
+.header {
+    width: 1450px;
+    margin: 0 auto;
+    }
+
+.nav {
+    height: 90px;
+    border-bottom: 1px solid #828282;
+
+    padding: 30px 0;
+}
+.nav-ol {
+display: flex;
+justify-content: space-between;
+
+list-style-type: none;
+font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+color: #828282;
+    
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,42 @@
+.main {
+    width: 1450px;
+    margin: 0 auto;
+}
+.info {
+    margin-bottom: 100px;
+}
+.info-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 190px;
+}
+.info-me-name {
+    font-family: 'Gilroy';
+font-size: 56px;
+line-height: 59px;
+width: 120px;
+color: #070707;
+
+}
+.info-me-information {
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+width: 160px;
+}
+.info-me-language {
+    font-family: 'Gilroy';
+font-size: 16px;
+line-height: 20px;
+color: #828282;
+transform: rotate(-90deg);
+}
+.img-me {
+    background: url("/My-portfolio/img/me.jpg.JPG");
+    background-size: 100%;
+    background-position: center;
+    width: 950px;
+    height: 400px;
+}
