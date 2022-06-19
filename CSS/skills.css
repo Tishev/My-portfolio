@@ -1,0 +1,55 @@
+
+.skills-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+}
+.skills-stack h1 {
+    font-family: 'Gilroy';
+font-size: 34px;
+line-height: 42px;
+text-align: center;
+color: #070707;
+margin-bottom: 70px;
+}
+.skills-stack p {
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #070707;
+margin-bottom: 85px;
+}
+.skills-stack-items {
+    display: flex;
+    justify-content: space-between;
+    width: 950px;
+}
+.stack-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+.stack-item p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    font-family: 'Gilroy';
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+
+}
+
+.stack-item:hover {
+    
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.img-skills {
+    width: 150px;
+    height: 150px;
+}
