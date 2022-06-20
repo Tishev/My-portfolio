@@ -1,0 +1,76 @@
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 110px 0;
+}
+.contacts h1 {
+    font-family: 'Gilroy';
+font-size: 34px;
+line-height: 42px;
+color: #070707;
+margin-bottom: 20px;
+}
+
+.cntcts {
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+color: #070707;
+margin-bottom: 20px;
+}
+.contacts-btn {
+    font-family: 'Gilroy';
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+
+width: 180px;
+height: 42px;
+background-color: #070707;
+border-radius: 25px;
+transition: 1s;
+
+margin-bottom: 85px;
+}
+.contacts-btn:hover {
+    transform: rotate(1turn);
+}
+
+.contacts-socials {
+    display: flex;
+}
+
+.contacts-socials ul li {
+    margin-bottom: 28px;
+    margin-left: 10px;
+}
+.contacts-socials ul li:last-child {
+    margin-bottom: 0;
+}
+.contacts-socials-icons {
+    display: flex;
+    flex-direction: column;
+    
+}   
+
+.socials-icon {
+    display: flex;
+    width: 200px;
+   
+    align-items: center;
+}
+.socials-icon:hover {
+    opacity: 0.85;
+}
+
+
+.socials-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
